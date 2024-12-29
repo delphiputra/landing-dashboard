@@ -14,7 +14,10 @@ export default function AdminLayout({
 
   const menuItems = [
     { name: "Dashboard", path: "/admin" },
-    
+    { name: "User", path: "/admin/user" },
+    { name: "Pemesanan", path: "/admin/pemesanan" },
+    { name: "Makanan", path: "/admin/makanan" },
+    { name: "Minuman", path: "/admin/minuman" },
   ];
 
   const handleLogout = () => {
