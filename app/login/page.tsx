@@ -1,8 +1,6 @@
 "use client";
 
 export default function LoginPage() {
-  
-
   return (
     <div
       className="flex items-center justify-center min-h-screen"
@@ -35,7 +33,7 @@ export default function LoginPage() {
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            onKeyDown={handleKeyDown} 
+            onKeyDown={handleKeyDown}
             className="w-full border border-brown-300 rounded-lg px-4 py-2 text-brown-800 shadow-sm focus:ring-2 focus:ring-brown-500 focus:outline-none"
             placeholder="Enter your email"
           />
@@ -53,7 +51,7 @@ export default function LoginPage() {
             type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            onKeyDown={handleKeyDown} 
+            onKeyDown={handleKeyDown}
             className="w-full border border-brown-300 rounded-lg px-4 py-2 text-brown-800 shadow-sm focus:ring-2 focus:ring-brown-500 focus:outline-none"
             placeholder="Enter your password"
           />
